@@ -1,0 +1,110 @@
+ 
+	 
+	 	
+	 
+	body {font-family: Arial, Helvetica, sans-serif;font-size:11px;	color:#6b6664; text-align:center; background:#efeeed url(images/bg_one.png) repeat-x top;}
+	input {border: 0px;}	
+	img {border: 0px;}	
+	ul {padding: 0px; margin: 0px;}	
+	li {padding: 0px; margin: 0px; list-style: none;}	
+	* html li {vertical-align: bottom;}	
+	a {color:#575757; text-decoration: none;}	
+	a:hover {color: #333333; text-decoration: none;}	
+	p {margin: 0px; padding: 0px;}	
+	.clear {clear: both; height:0px; display:block; font-size:0px;}	
+	.left {float: left;}	
+	.right {float: right;}
+	 
+	
+	 
+ 
+
+ 
+		
+		
+ 
+   #wrapper{ width:1335px; margin:auto;  border:px solid green; clear:both;background:#BDC9D6;height:1113px;}
+   #header{ width:100%; margin:auto; clear:both; background:url(images/header-bg.png) repeat-x top; }
+    .branding{ width:940px; margin:auto; background:url(images/header-center-bg.png) no-repeat center; height:129px;}
+      
+		    .logo { width:150px;   height:70px;text-align:center;padding-top: 26px; float:left;border:px solid red;margin:15px;  background:url(images/logo-bg2.png) no-repeat;  }
+			 .add{background: none repeat scroll 0 0 #74a315;border-radius: 10px;float: left;font-size: 15px;height: 15px;margin-top: 18px;padding: 5px;width: 88px;}
+			.left_menu{width:215px; border-radius: 0 15px;background:gray;  height:406px;border:px solid red;float:left;margin:20px 14px 0px 30px;}
+			.body_menu{margin-top:0px;padding:0px;line-height:30px;}
+			.body_menu li{margin:0px;padding:4px; font-size:15px;line-height:38px;list-style:none;border-radius:6px;float:left;position:relative;border:px solid red;}
+			.body_menu li a {color:white;font-size:20px;border:px solid green;padding-left:0px;border-radius:10px;float:left;text-align:left;background:#78A71D;text-decoration:none;width:207px;height:44px;display:block;}
+			.body_menu li a img{float:left; padding:6px;}
+			.body_menu li a:hover{color:white;background:#E26C1E;}
+			.body_bar{width:196px;height:41px; margin: -3px 0px 0px -7px;line-height:32px;padding:0px;background:url(images/body_bg.png)no-repeat;text-shadow: 5px 5px 5px;color: pink;font-size: 18px;}
+              
+			.header-right{ width:416px; float:right; background:url(images/header-right-m.png) repeat-x; height:51px;}
+			.header-right-l{ background:url(images/header-right-l.png) no-repeat left; padding-left:70px; height:51px;}
+			 
+			 
+		    .welcome-msg{ padding-top:5px;}
+			.welcome-msg li{ float:left; font-size:11px; line-height:18px; color:#679b00; padding-right:4px;}
+			.welcome-msg li a{color:#4d4d4d;}
+			.welcome-msg .login-last{ padding-left:50px; color:#5c5b5b; font-size:11px; line-height:18px;} 
+			.welcome-msg .logintime{color:#5c5b5b; font-size:11px; line-height:18px;}
+
+			.user-info li{ float:left; padding-right:25px;}
+			.user-info li a{ font-size:11px; line-height:18px; color:#006f59;}
+			.account{ background:url(images/account.png) no-repeat left; padding-left:18px;}
+			.user-info .logout a{ background:url(images/logout.png) no-repeat left; padding-left:18px;  color:#cb0000;}
+			.user-info .logout a:hover{color:white;font-size:20px;}
+			.user-info .logout {float:right;}
+			 
+			 
+.main_menu {width:1334px;margin:auto; float:left;  background: url(images/navbg.png) repeat-x; height:42px;}
+  
+ 
+.main_menu ul {
+	margin: 0;
+	padding: 0;
+	height:30px;
+}
+.main_menu ul ul {
+	background:#cddeab url(images/ul-ul-hover.png) no-repeat bottom;
+	height:auto;
+	padding-bottom:4px;
+}
+ 
+.main_menu ul li {
+	position: relative;
+	display: inline;
+	float: left;
+}
+ .main_menu ul li {
+	vertical-align: bottom;
+}
+ 
+.main_menu ul li a {
+	font-size:12px;
+	color:#ffffff;
+	font-weight:bold;
+	padding:0 25px;
+	height:39px;
+	line-height:39px;
+	display: inline-block;
+}
+.main_menu ul li a.active {
+	background:pink;
+	height:39px;
+	color:#fcff01;
+}
+.main_menu ul li a:hover  {
+	background:pink;
+	height:39px;
+	color:#fcff01;}
+
+.table{width:1055px;text-align:center;margin:10px 0px 0px 10px;background:#D7E0C4;}	 
+.form{float:right;width:1054px;height:440px;border:px solid red;border-radius:0px 0px 10px 10px;margin-right:20px;margin-top:14px;z-index:2;position: relative;background:white;}
+.form table{ height: 51px;margin:25px;}
+.form input{height: 30px;margin:0px; background:pink;}
+.form td{padding:2px;color:red;}	
+.succ_mgs{color:#75D975;}
+.erro_mgs{color:#FF6600;}
+#footer{float:left;width:1300px;height:153px;border-radius:10px 10px 0px 0px;border-top:3px solid green;margin-left:15px;background:#E8E8FF;}
+#footer h4{text-align:center;color:red;margin:33px;}
+#footer p{text-align:center;color:black;margin:5px;}
+#footer h3{float:right;color:#5184CE; margin: -13px 20px 0px 0px;}

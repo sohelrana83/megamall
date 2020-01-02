@@ -1,0 +1,155 @@
+/*		Default Layout: 992px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+
+#wreaper{width:100%;}
+
+*::before, *::after {
+  box-sizing: border-box;
+}
+#selectnav1{display:none;}
+#mobile-menu{display:block;}
+#selectnav2{display:none;}
+.head_line h3 {
+    color: #53ae2e;
+    font-size: 29px;
+    margin-top: 47px;
+}
+.right_side_bar {display:block;}
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+#wreaper{width:768px;}
+.logo img {
+  margin-left: -18px;
+  margin-top: 40px;
+  width: 100%;
+}
+ 
+#selectnav1{display:none;}
+#mobile-menu{display:block;}
+#mobile-menu2{display:block;}
+#selectnav2{display:none;}
+.head_line h3 {
+    color: #53ae2e;
+    font-size: 29px;
+    margin-top: 47px;
+}
+}
+
+
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+#wreaper{width:767px;}
+ 
+.navbar{margin-right:-371px;}
+#logo img {
+  margin-left: -27px;
+  margin-top: 24px;
+  width: 90px;
+}
+#selectnav1 {
+  display: block;
+  width: 300px;
+  margin-right: 104px;
+  color: red;
+}
+#mobile-menu{display:none;}
+#mobile-menu2{display:none;}
+#selectnav2 {
+  color: red;
+  display: block;
+  width: 300px;
+}
+.head_line h3 {
+    color: #53ae2e;
+    font-size: 29px;
+    margin-top: 47px;
+}
+#slider1_container{display:block;}
+
+}
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+#wreaper{width:320px;}
+ 
+.navbar {
+  margin-right: -168px;
+}	
+#logo img {
+  width: 100px;
+}
+#selectnav1 {
+  display: block;
+  float: left;
+  margin-right: 6px;
+  width: 120px;
+  color:green;
+}
+#mobile-menu{display:none;}
+#mobile-menu2{display:none;}
+#selectnav2 {
+  color: green;
+  display: block;
+  width: 134px;
+}
+#slider1_container{display:none;}
+.head_line h3 {
+  color: #53ae2e;
+  font-size: 25px;
+  margin-left: 47px;
+  margin-top: 60px;
+}
+
+.footer_mobile { display:none;}
+
+}
+
+ 
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+	body {
+	
+	}
+	
+}

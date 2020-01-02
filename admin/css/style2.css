@@ -1,0 +1,44 @@
+body{margin:0px;padding: 0px;}
+#weapper{width:1000px;height:806px;margin:auto;border:px solid red;background:#E9F2FB;}
+#header{width:1000px;height:130px;border:px solid green;background:url(images/banner3.png)no-repeat;}
+#header input{height:26px;border-radius: 12px;margin-top: 100px;}
+.logo{float:left;width:765px;height:100px;margin:10px 0px 0px 10px;border:px solid red;background:url(images/logo2.png)no-repeat;}
+.main_menu{margin:0px;padding:0px;margin-top:3px;}
+.main_menu ul{margin:0px;padding:0px;line-height:30px;}
+.main_menu ul li{margin:0px;padding:1px; font-size: 20px;list-style:none;border-radius:6px;float:left;position:relative;border:px solid red;background:#4284D6;}
+.main_menu ul li a {color:width;border:px solid green;border-radius:10px;text-align:center;background:#FFFF87;text-decoration:none;width:123px;height:34px;display:block;color:black;}
+.main_menu ul li a:hover{color:white;background:#8DD241;}
+.main_menu ul ul {position:absolute;visibility:hidden;top:36px;}
+.main_menu ul li:hover ul{visibility:visible;z-index:15;}
+.main_menu ul ul li a{width:175px;background:#12A7F2;font-size: 18px;padding-left: 5px;text-align: left;}
+.main_menu ul ul li a:hover{color:white;background:#919096;}
+#body{width:1000px;height:516px;border:px solid yellow;}
+#body h3{color: green;line-height: 20px;margin: 3px 0 -7px 0px;width:116px;height: 60px;background:pink;}
+.top_marquee{width:882px;height:23px;margin: -16px 0px 0px 118px;color:white;background:green;}
+
+.body_left{width:225px;height:337px;float:left;border-radius:10px;margin:14px 4px 0px 17px;background:white;}
+.Result{ margin-left:8px;float:left;width:495px;height:420px;border:1px solid red;margin-top:14px;z-index:2;position: relative;background:pink;} 
+.body_menu{margin-top:0px;padding:0px;line-height:30px;}
+.body_menu li{margin:0px;padding:4px; font-size:15px;list-style:none;border-radius:6px;float:left;position:relative;border:px solid red;}
+.body_menu li a {color:white;border:px solid green;padding-left: 7px;border-radius:10px;text-align:left;background:green;text-decoration:none;width:207px;height:34px;display:block;}
+.body_menu li a:hover{color:black;background:red;}
+.body_bar{width:196px;height:41px; margin: -3px 0px 0px -7px;line-height:32px;padding-left:23px;background:url(images/body_bg.png)no-repeat;text-shadow: 5px 5px 5px;color: springgreen;font-size: 20px;}
+.body_bar2{width:137px;height:41px; margin: -3px 0px 0px 32px;line-height:32px;padding-left:60px;background:url(images/body_bg2.png)no-repeat;text-shadow: 5px 5px 5px;color: yellow;font-size: 20px;}
+.body_right marquee{width:220px; height:255px;} 
+.body_right{width:221px;height:300px;padding-left: 5px;float:right;border-radius:10px;margin:14px 17px 0px 4px;background:#DEB573;}
+.body_right marquee a{color:green;font-size:18px;line-height:28px;text-decoration:none;}
+.body_right marquee a:hover{color:red;text-decoration:underline;}  
+.form{float:right;width:725px;height:440px;border:px solid red;border-radius:0px 0px 10px 10px;margin-right:20px;margin-top:14px;z-index:2;position: relative;background:white;}
+.form table{ height: 51px;margin:25px;}
+.form input{height: 30px;margin:0px; background:pink;}
+.form td{padding:2px;}
+
+.all_result{width:472px;height:30px;border:1px solid red;background:#7BB573;color:green;text-align:center;margin:5px 5px 0px 10px;}
+.result_form{color:teal;box-shadow: 6px 7px 5px 0; border-radius: 10px;font-size:20px;width:400px;height:265px;border:px solid red;margin: 40px 0 0 42px;background:#E8E8FF;padding:38px 0px 0px 10px;}
+.result_form input{padding-left:10px;float:right;margin-right: 15px;height:30px;}
+.result_form SELECT{width:150px;height:30px;  float: right;margin-right: 20px;background:pink;}
+#footer{float:left;width:966px;height:153px;border-top:3px solid green;border-radius:10px 10px 0px 0px;margin-left:15px;background:#E8E8FF;}
+#footer h4{text-align:center;color:red;margin:33px;}
+#footer p{text-align:center;color:black;margin:5px;}
+#footer h3{float:right;color:#5184CE; margin: -13px 20px 0px 0px;}
+
